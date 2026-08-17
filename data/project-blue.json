@@ -1,1 +1,86 @@
-{"Y1":{"Admissions":4600},"Y2":{"Admissions":9500},"Y3":{"Admissions":17250},"Y4":{"Admissions":25100},"Y5":{"Admissions":34200}}
+{
+  "businessPlan": {
+    "admissions": {
+      "Y1": 4600,
+      "Y2": 9500,
+      "Y3": 17250,
+      "Y4": 25100,
+      "Y5": 34200
+    },
+
+    "students": {
+      "Y1": 3750,
+      "Y2": 10466,
+      "Y3": 20146,
+      "Y4": 31915,
+      "Y5": 44890
+    },
+
+    "revenue": {
+      "Y1": 49.8,
+      "Y2": 99.4,
+      "Y3": 190.7,
+      "Y4": 273.2,
+      "Y5": 388.1
+    },
+
+    "julyAdmissions": {
+      "Y1": 2900,
+      "Y2": 6400,
+      "Y3": 11300,
+      "Y4": 16050,
+      "Y5": 21050
+    },
+
+    "januaryAdmissions": {
+      "Y1": 1700,
+      "Y2": 3100,
+      "Y3": 5950,
+      "Y4": 9050,
+      "Y5": 13150
+    }
+  },
+
+  "programs": {
+    "MBA": {
+      "Y1": 4000,
+      "Y2": 7500,
+      "Y3": 14000,
+      "Y4": 19000,
+      "Y5": 25000
+    },
+
+    "BBA": {
+      "Y1": 600,
+      "Y2": 900,
+      "Y3": 1300,
+      "Y4": 2600,
+      "Y5": 3700
+    },
+
+    "BCA": {
+      "Y1": 0,
+      "Y2": 600,
+      "Y3": 950,
+      "Y4": 1450,
+      "Y5": 2050
+    },
+
+    "MCA_Journalism": {
+      "Y1": 0,
+      "Y2": 500,
+      "Y3": 1000,
+      "Y4": 2050,
+      "Y5": 3450
+    }
+  },
+
+  "kpiDefaults": {
+    "leadAchievement": 91,
+    "admissionAchievement": 89,
+    "marketingAchievement": 96,
+    "revenueAchievement": 87,
+    "businessPlanAchievement": 92
+  }
+}
+
