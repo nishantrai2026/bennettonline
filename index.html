@@ -1,1 +1,70 @@
-<!DOCTYPE html><html><body><h2>Bennett Online Access</h2><input id='p' type='password'><button onclick="if(p.value==='2026'){sessionStorage.setItem('bennettonline','granted');location='dashboard.html'}">Continue</button></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bennett Online</title>
+
+css/style.css
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <div class="logo">
+        Bennett Online
+    </div>
+
+    <div class="subtitle">
+        Strategic Command Center
+    </div>
+
+    <input
+        type="password"
+        id="password"
+        placeholder="Enter Access Code">
+
+    <button onclick="login()">
+        Continue
+    </button>
+
+    <p id="error">
+        Invalid Access Code
+    </p>
+
+</div>
+
+<script>
+
+function login() {
+
+    const password =
+        document.getElementById("password").value;
+
+    if (password === "2026") {
+
+        sessionStorage.setItem(
+            "bennettonline_access",
+            "granted"
+        );
+
+        window.location.href =
+            "dashboard.html";
+
+    } else {
+
+        document.getElementById(
+            "error"
+        ).style.display = "block";
+    }
+}
+
+</script>
+
+</body>
+</html>
